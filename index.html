@@ -1,0 +1,732 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+--><html>
+	<head>
+		<title>INVITACION</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header"><div class="logo"><a href="index.html">   <span>   </span></a></div>
+				<!--a href="#menu"><span>Menu</span></a-->
+			</header><!-- Nav -->
+			<!--nav id="menu">
+				<ul class="links">
+				    <li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav><!-- Banner --><!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		--><section id="banner" class="bg-img" data-bg="18_2.jpg"><div class="inner">
+					<header>
+					
+						    <H2> 
+							<p class="p1">G U E R Y	</p>
+							<p>&</p>
+							<p class="p1">E L Y A N N E</p>
+						    </H2>
+							<img class="img2" src="img/00.gif" alt="imagen de anillo" 
+							width="50%" height="500">
+   
+						<style>
+							.img2 {
+								height: 60px;
+								width: 60px;
+								animation: mostrarOcultar 10s infinite 1;
+							}
+							.p1{
+								font-family: 'Times New Roman', Times, serif;
+								font-size: 100px;
+                                font-weight: bold;
+								
+							}
+						</style>
+					</header>
+			
+				</div>
+			
+				
+			</section>
+				<!------------------------ CERO ------------------>
+				<section id="one" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+					<article class="box">
+						<header>
+							<style>
+								
+								img{
+									height: 50px;
+									width: 50px;
+								}
+							</style>
+						<h1>Nuestra música </h1>
+                        <P>En Dios solo existen propósitos 
+                            he aquí la unión de nuestras vidas </P>
+
+							<p>Se parte de esta historia:</p>
+
+					
+						
+				<img src="img/mu2.gif" alt="">
+						</header>
+                        
+						<div class="content"> 
+						 <style>
+							 .player-container {
+									
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 10vh;
+      background: #f0f2f500;
+    }
+
+    .play-button {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #4caf4f00;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .play-button:hover {
+      transform: scale(1.05);
+      background: #45a04900;
+    }
+
+    .play-button:active {
+      transform: scale(0.95);
+    }
+
+    .play-icon, .pause-icon {
+
+      fill: rgba(255, 255, 255, 0.958);
+    }
+
+    .pause-icon {
+      display: none;
+    }
+
+    .playing .play-icon {
+      display: none;
+	  
+    }
+
+    .playing .pause-icon {
+      display: block;
+    }
+						  </style>
+							
+							<!--p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p-->
+						</div>
+						<footer>
+							<div class="player-container">
+								<button class="play-button" onclick="togglePlay()">
+								  <svg class="play-icon" width="30" height="30" viewBox="0 0 24 24">
+									<path d="M8 5v14l11-7z">
+									<!--img src="img/mu.gif" alt=""-->
+									
+								  </svg>
+								  <svg class="pause-icon" width="30" height="30" viewBox="0 0 24 24">
+									<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                                   
+								  </svg>
+								</button>
+							  </div>
+							
+							  <audio id="audio">
+								<source src="img/Hasta mi final (160k)_1739907492783.oga" type="audio/mpeg">
+							  </audio>
+							
+							  <script>
+								const button = document.querySelector('.play-button');
+								const audio = document.querySelector('#audio');
+								let isPlaying = false;
+							
+								function togglePlay() {
+								  if (isPlaying) {
+									audio.pause();
+									button.classList.remove('playing');
+									
+								  } else {
+									audio.play();
+									button.classList.add('playing');
+								  }
+								  isPlaying = !isPlaying;
+								}
+							  </script>
+							<!--a href="generic.html" class="button alt">Learn More</a-->
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
+            <!------------------------ One ------------------>
+			<section id="one" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+				<article class="box">
+					<header>
+				     <style>
+						/*---parte de los estilos del calendario*/
+			.calendar {
+      width: 295px;
+      height: 200px;
+      font-family: 'Times New Roman', Times, serif;
+      border: 1px solid #02010182;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.633);
+    }
+
+    .month-header {
+      background: #0000000c;
+      color: #fff8f8;
+      text-align: center;
+      padding: 4px 0;
+      font-size: 12px;
+      border-bottom: 1px solid #000000;
+    }
+
+    .days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      font-size: 8px;
+      text-align: center;
+    }
+
+    .day-header {
+      background: #00000056;
+      padding: 2px 0;
+      font-weight: bold;
+    }
+
+    .day {
+      padding: 5px 0;
+    }
+
+    .sunday {
+      color: red;
+    }
+
+    .highlight {
+      position: relative;
+      animation: pulse 1.5s infinite;
+    }
+
+    .heart-icon {
+      width: 50px;
+      height: 30px;
+      position: absolute;
+      top: -2px;
+      right: -2px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(2); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(2); }
+    }
+				/*---parte de los estilos del calendario*/
+					 </style>
+					</header>
+					
+					<div class="content"> 
+					
+						<h1>!NOS CASAMOS!</h1>
+							<center>
+							<!---el calendario --->
+							<div class="calendar">
+								<div class="month-header">
+								   MARZO 2025
+								</div>
+								<div class="days">
+								  <div class="day-header">D</div>
+								  <div class="day-header">L</div>
+								  <div class="day-header">M</div>
+								  <div class="day-header">M</div>
+								  <div class="day-header">J</div>
+								  <div class="day-header">V</div>
+								  <div class="day-header">S</div>
+								  
+								  <div class="day"></div>
+								  <div class="day"></div>
+								  <div class="day"></div>
+								  <div class="day"></div>
+								  <div class="day"></div>
+								  <div class="day"></div>
+								  <div class="day">1</div>
+								  <div class="day sunday">2</div>
+								  <div class="day">3</div>
+								  <div class="day">4</div>
+								  <div class="day">5</div>
+								  <div class="day">6</div>
+								  <div class="day">7</div>
+								  <div class="day">8</div>
+								  <div class="day sunday">9</div>
+								  <div class="day">10</div>
+								  <div class="day">11</div>
+								  <div class="day">12</div>
+								  <div class="day">13</div>
+								  <div class="day">14</div>
+								  <div class="day">15</div>
+								  <div class="day sunday">16</div>
+								  <div class="day">17</div>
+								  <div class="day">18</div>
+								  <div class="day">19</div>
+								  <div class="day">20</div>
+								  <div class="day">21</div>
+								  <div class="day">22</div>
+								  <div class="day sunday">23</div>
+								  <div class="day">24</div>
+								  <div class="day">25</div>
+								  <div class="day">26</div>
+								  <div class="day">27</div>
+								  <div class="day">28</div>
+								  <div class="day highlight">29
+									<img src="img/00.gif" alt="heart" class="heart-icon">
+								  </div>
+								  <div class="day sunday">30</div>
+								  <div class="day">31</div>
+								</div>
+							  </div>
+							  </center>
+							  <br>
+							<!---el calendario-->
+						<!--p>Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p-->
+					</div>
+					<footer>
+					
+						<!--a href="generic.html" class="button alt">Learn More</a-->
+					</footer>
+				</article>
+			</div>
+			<a href="#two" class="more">Learn More</a>
+		</section>
+			<!------------------------ two ------------------>
+			<section id="one" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+					<article class="box">
+						<header>
+							<style>
+							h1,h3,P{
+								font-family:Times New Roman;
+								font-size: 15px;	
+							}
+							.img1{
+								height: 60px;
+								width: 60px;
+								animation: mostrarOcultar 10s infinite;
+							}
+							
+							</style>
+
+						
+                             <h1 >Con la bendición de Dios y de nuestros padres </h1>
+                             <!--img class="img1" src="img/2.png" alt=""-->
+                             <p>Padres del novio :</p>
+                             <h1>MARCOS FERNANDEZ LUNA </h1>
+                             <h1>ADELA VICENTA QUISPE CRUZ </h1>
+                             <h1>&</h1>
+                             <p>Padres de la novia:</p>
+                             <h1>GERMAN MARQUEZ LIMA</h1>
+                             <h1>ROSA GLADIS MELGAR FERNANDEZ </h1>
+
+						<!--p>01.01.2017</p-->
+						</header>
+						<div class="content">
+							<p class="p0">“Agradecemos a Dios por todas nuestras bendiciones, pero
+								especialmente por reunirnos en este día tan especial”
+							</p>
+
+						   <img class="img1" src="img/flo.gif" alt="">
+							
+						<footer>
+							
+						</footer>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
+			<!-- -------------------------------Three------------------------- -->
+			 <section id="two" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+					<article class="box">
+						<header>
+							<style>
+								h2{
+								font-family:Times New Roman;
+								font-size: 20px;	
+							}
+		timeline-container {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(45deg, #0e0d0d 50%, transparent 50%);
+            background-size: 4px 4px;
+        }
+
+        .event {
+            margin-bottom: 30px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .time {
+            font-weight: bold;
+            width: 100px;
+            text-align: right;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            background: #e3e3e3b2;
+            border-radius: 100%;
+            margin: 0 10px;
+        }
+
+        .description {
+            width: 100px;
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+							
+						.p00{
+							font-size: 15px;	
+							text-align: center;
+						    
+						}
+						.img{
+							height: 50px;
+						   width: 50px;
+								
+						}
+						.g00{
+							height: 90px;
+								width: 90px;
+						}
+
+							</style>
+							<h1>ITINERARIO</h1>
+
+							<div class="timeline-container">
+								
+								<div class="timeline">
+									<div class="event">
+										<div class="time">									    
+										</div>
+										<div class="dot">	
+										</div>
+										<div class="description">
+											<center>
+											<img class="g00" src="img/ig.gif" alt="" >
+											<p class="p00">Ceremonia  10:00 am </p>
+										    </center>	
+										</div>
+									</div>
+									<div class="event">
+										<div class="time">
+											<img class="g00" src="img/ma.gif" alt="height="50px" width="50px"" >
+											<p class="p00">Mariachi a las 11:30 am </p>
+										</div>
+										<div class="dot"></div>
+										<div class="description"></div>
+									</div>
+									<div class="event">
+										<div class="time">   </div>
+										<div class="dot"></div>
+										<div class="description">
+											<center>
+												<img class="g00" src="img/re.gif" alt="" >
+												<p class="p00">Oración de Gratitud a Dios  12:30 am </p>
+												</center>
+										</div>
+									</div>
+									<div class="event">
+										<div class="time">
+											<center>
+												<img class="g00" src="img/ce.gif" alt="" >
+												<p class="p00">Refrigerio a las 13:00 pm</p>
+												</center>
+										</div>
+										<div class="dot">
+											
+										</div>
+										<div class="description"></div>
+									</div>
+									<div class="event">
+										<div class="time">   </div>
+										<div class="dot"></div>
+										<div class="description">
+											<center>
+												<img class="g00" src="img/c22.gif" alt="height="50px" width="50px"" >
+												<p class="p00">Bienvenida a las 14:00 pm </p>
+												</center>
+										</div>
+									</div>
+									<div class="event">
+										<div class="time">
+											<img class="g00" src="img/mu.gif" alt="height="50px" width="50px" >
+											<p class="p00">Vals de Recién Casados a las 18:30 pm</p>
+										</div>
+										<div class="dot"></div>
+										<div class="description"></div>
+									</div>
+									<div class="event">
+										<div class="time"></div>
+										<div class="dot"></div>
+										<div class="description">
+											<center>
+												<img class="g00" src="img/ce.gif" alt="" >
+												<p class="p00">Cena a las  20:00 pm</p>
+												</center>
+										</div>
+									</div>
+									<div class="event">
+										<div class="time">
+											<div class="time">
+												<img class="g00" src="img/br.gif" alt="height="50px" width="50px" >
+												<p class="p00">Torta y Brindis a las 20:30 pm</p>
+											</div>
+										</div>
+										<div class="dot"></div>
+										<div class="description"></div>
+									</div>
+									<div class="event">
+										<div class="time"></div>
+										<div class="dot"></div>
+										<div class="description">
+											<div class="time">
+												<img class="g00" src="img/sor.gif" alt="height="50px" width="50px" >
+												<p class="p00"> Momento Especial de Gratitud a las  21:00 pm</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</header>
+						
+						<div class="contenedor-imagen">
+						
+							
+						</div>
+						<footer>
+						
+						</footer>
+					</article>
+				</div>
+				<a href="#three" class="more">Learn More</a>
+			</section>
+			<!-- -------------------------------------four-------------------------- -->
+			 <section id="three" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+					<article class="box">
+						<header>
+							<style>
+						
+							</style>
+							
+							<h1>Ubicación de la Recepción</h1> 
+							<p>Haz clic  para ver en Google Maps:</p>
+							
+						</header>
+						<div class="content">
+							 <!-- Reemplaza las coordenadas con las que necesites -->
+							 <a href="https://maps.app.goo.gl/kvywngqxHEcRHKcX8" target="_blank">
+								<img src="img/ubi.gif" alt="Mapa de ubicación" class="map-image">
+							</a>
+
+						</div>
+						<footer>
+							
+						
+						</footer></article></div>
+	
+			</section>
+			<!----------------------------- ceis  ---------------------------->
+			 <section id="four" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+					<article class="box">
+						<header>
+							<h1>Nuestra historia </h1>
+						<img src="img/ca.gif" alt="">
+						</header>
+						<!-- parte de las fotos para deslizar  -->
+						<body class="b">
+        
+							<div class="slider">
+								<div class="item">
+									
+									<img src="images/01.jpg" alt="Slide 1">
+									
+								</div>
+								<div class="item">
+									
+									<img src="images/05.jpg" alt="Slide 1">
+									
+								</div>
+								<div class="item">
+									
+									<img src="images/15.jpg" alt="Slide 1">
+								</div>
+								<div class="item">
+									
+									<img src="images/04.jpg" alt="Slide 1">
+								</div>
+								<div class="item">
+									
+									<img src="images/07.jpg" alt="Slide 1">
+								</div>
+								<div class="item">
+									
+									<img src="images/02.jpg" alt="Slide 1">
+								</div>
+								<div class="item">
+								
+									<img src="images/14.jpg" alt="Slide 1">
+								</div>
+								<div class="item">
+									<img src="images/06.jpg" alt="Slide 1">
+								
+							</div>
+							<div class="item">
+								<img src="images/12_1.jpg" alt="Slide 1">
+							
+						</div>
+						
+							<script src="app.js"></script>
+						</body1>
+					
+						</div>
+
+						<footer>
+							
+						</footer>
+					</article></div>
+
+			</section>
+			<!----------------------------- ciete ---------------------------->
+			<section id="four" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+				<article class="box">
+					<style>
+                      .img3{
+						width: 70px;
+						height: 60px;
+					  }
+					  .img4{
+						width: 200px;
+						height: 200px;
+					  }
+					</style>					<header>
+					<h1>Mesa de regalos </h1>
+					<img class="img3" src="img/rega.gif" alt="">
+					<p>"El mejor regalo es su compañía en nuestro día tan
+						especial para nosotros en este nuevo comienzo"
+					</p>
+					<p>
+						Si deseas contribuir a este nuevo comienzo de nuestras 
+                        vidas te dejamos Nuestro QR:
+
+					
+					</p>
+
+					<img class="img4" src="images/qr1.jpg" alt="">
+
+					
+					</header>
+					<div class="content">
+
+
+
+						 <!-- parte de las fotos para deslizar  -->
+					</div>
+					<footer>
+						<!--a href="generic.html" class="button alt">Learn More</a-->
+					</footer>
+				</article>
+			</div>
+
+		</section>
+           <!----------------------------- ocho  ---------------------------->
+		<section id="four" class="wrapper post bg-img" data-bg="a.jpeg"><div class="inner">
+			<article class="box">
+			    <header>
+					<style>
+					 .img5{
+						width: 200px;
+						height: 200px;
+					  }
+				
+					</style>
+					<h1>Palabras de agradecimientos</h1>
+					
+					<p>"Te agradecemos de todo corazón que hayas decidido compartir 
+						con nosotros el día más importante 
+						de nuestras vidas. Tu presencia lo hace aún más inolvidable".</p>
+					<center>
+									<img class="img5" src="img/casados.png" alt="">	
+					</center>
+
+				</header>
+				<br>
+				<br>
+				<p>"Tu fidelidad no tiene fin ¡Te alabo, Señor!". </p>
+                      <img src="img/flor.gif" alt="">      
+                        
+					 <!-- parte de las fotos para deslizar  -->
+				</div>
+				<footer>
+					
+					<!--a href="generic.html" class="button alt">Learn More</a-->
+				</footer>
+			</article>
+		</div>
+
+	</section>
+	
+		
+			<div class="copyright">
+				<ul class="icons"><li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul></div>
+			
+		</div>
+
+
+
+			<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>

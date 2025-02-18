@@ -1,0 +1,60 @@
+/*parte de las imagenes de las fotos de la boda */
+b{
+    background-image: 
+        linear-gradient(
+            to top right, #8a5cf600, #fc1c8c00
+        );
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+
+.item{
+    position: absolute;
+    width: 200px;
+    height: 320px;
+    text-align: justify;
+    background-color: #ae7b643e;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+   /* left: calc(50% - 110px);*/
+   left: calc(50% - 110px);
+    top: 0;
+}
+.item img {
+
+    width: 200px;
+    height:320px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Espacio entre imagen y texto */
+}
+#next, #prev{
+    position: absolute;
+    top: 40%;
+    color: #f7a59257;
+    background-color: transparent;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    left: 400px;
+}
+#next{
+    left: unset;
+    
+    right: 400px;
+}
+/**********************************************/
